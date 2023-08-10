@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css reset */
+
+.cf:before,
+.cf:after {
+    content: ""; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}
+
+/* clear fixed */
+
+
+body {
+        background-color: black;
+}
+
+.header {
+    width: 1000px;
+    height: 400px;
+    margin: 100px auto;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.header p {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.lorem {
+    font-family: sans-serif;
+}
+
+.head {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(19, 17, 52, 1);
+    font-family: serif;
+    padding: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.main-tance {
+    margin-top: 25px;
+}
+
+.satu {
+    position: relative;
+}
+
+.satu p {
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 60px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.dua {
+    margin-top: 5px;
+}
+
+.dua p {
+    display: inline;
+    color: white;
+    font-size :10px;
+    font-family: sans-serif;
+}
+
+.one {
+    padding: 0;
+}
+
+.two {
+    padding-left: 45px;
+}
+
+.three {
+    padding-left: 45px;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+}
+
+span {
+    color: darkorchid;
+}
+
+img {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    left: 500px;
+    bottom: 400px;
+}
+
+
